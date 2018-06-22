@@ -1,0 +1,26 @@
+{
+  "name": "platzom",
+  "version": "0.1.0",
+  "description": "programa para traducir a un idioma inventado",
+  "main": "dist/src/platzom.js",
+  "scripts": {
+    "build": "babel src/platzom.js -d dist",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dasafi/platzom.git"
+  },
+  "author": "David Safi <david_safi@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dasafi/platzom/issues"
+  },
+  "homepage": "https://github.com/dasafi/platzom#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
